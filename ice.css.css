@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ms Madi', cursive;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+color: #b80909;
+text-decoration: none;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Oleo+Script+Swash+Caps&family=Qwitcher+Grypen&display=swap');
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #dbb0b9;
+    position: fixed;
+   
+   
+}
+.icon{
+    float: right;
+}
+nav img{
+   
+    width: 60px;
+    height: 60px;
+   
+}
+.icon span{
+   padding-right: 300px;
+   font-size: 30px;
+   color: #850E35;
+   
+}
+nav a{
+    text-decoration: none;
+    color: #850E35;
+   display: inline-block;
+   padding: 10px;
+   margin-top: 10px;
+   padding-bottom: 1px;
+   font-size: 20px;
+}
+nav a:hover{
+    color: #075b66;
+    border-bottom: solid #EE6983 1px;
+}
+/* home portion */
+
+.home{
+    width: 100%;
+    height: 100vh;
+background-image: url(/images/home-bac.jpg);
+color: #850E35;
+    padding-top: 100px;
+}
+.home .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.home .container .text{
+    padding: 100px;
+}
+.text p{
+    font-size: 20px;
+    padding: 10px;
+}
+.text h2{
+    font-size: 30px;
+    padding: 10px;
+}
+ button{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #FFC4C4;
+    color: #850E35;
+    border-radius: 15%;
+}
+.about{
+    background-color: #f1a8a8;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:50% 50% ;
+    padding: 150px
+}
+.about .text{
+    margin: 30px;
+    margin-left: 50px;
+   
+}
+.about img{
+    height: 400px;
+    width: 500px;
+    border-radius: 10%;
+}
+/* login form */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+  }
+.login{
+    height: 100vh;
+    width: 100%;
+    padding: 80px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #faaeae;
+}  
+.box{
+    border: solid rgba(135, 132, 132,0.2) 3px;
+    text-align: center;
+    border-radius: 1em;
+}
+.box1{
+    padding: 150px;
+    padding-bottom: 0px;
+
+}
+.box1 h1{
+    margin-bottom: 15px;
+}
+.box1 p{
+    padding: 10px;
+}
+
+.box2{
+    padding: 100px;
+    padding-bottom: 0px;
+}
+
+.box2 .icons{
+    padding: 20px;
+
+}
+.inputs input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1em;
+}
+/* news */
+.news{   
+    height: 100vh;
+    width: 100%;
+   
+    padding-top: 100px;
+background-color: #faaeae;
+display: grid;
+grid-template-columns: 30% 30% 30%;
+
+}
+.image_news{
+    padding-top: 96px;
+   
+}
+.para_1{
+margin-left: 80px;
+text-align: center;
+margin-top: 80px;
+width: 80%;
+}
+.para_2{
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 80px;
+    width: 80%;
+    }
+/* gallery */
+.gallery{
+    background-color: #faaeae;
+    height: 100vh;
+    width: 100%;
+}
+.gallery h1{
+    text-align: center;
+    padding-top: 70px;
+}
+.images_gal{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    align-items: center;
+   
+    margin: 10px;
+}
+.images_gal img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 15%;
+}
